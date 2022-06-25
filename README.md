@@ -1,11 +1,8 @@
-# Node.js and Express Hosted on Microsoft Azure Template
+# Cav Scout simulator web app
 
 Dependencies: Node.js and Express
 
-This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft Azure.
-
-Initial Usage:
-- npm install express
-- npm start
 
 
+Link to the hosted web app https://cavscoutsim.azurewebsites.net/
+Link to the final project proposal https://salmon-dune-07d38a810.1.azurestaticapps.net/
