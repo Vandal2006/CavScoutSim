@@ -44,7 +44,7 @@ function calculateCompatibility() {
         if (MAX_SCORE == 100){document.getElementById("explanation").innerHTML = "You are Cav Scout matieral!"
 
     }
-        else if (MAX_SCORE >99 <50){document.getElementById("explanation").innerHTML = "Work harder your almost there"
+        else if (MAX_SCORE >99 <50 ){document.getElementById("explanation").innerHTML = "Work harder your almost there"
 
     }
         else {document.getElementById("explanation").innerHTML = "YOU HAVE FAILED!"
