@@ -1,4 +1,4 @@
-console.log("Starting Matchmaker Lite...");
+console.log("Starting Cav Scout Simulator...");
 function calculateCompatibility() {
 	console.log("calculateCompatibility()");
 	const DESIRED_RESPONSE = [
