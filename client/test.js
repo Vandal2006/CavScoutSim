@@ -1,5 +1,18 @@
 console.log("Starting Cav Scout Simulator...");
 
+//Fetch JSON for img links
+
+async function start() {
+const response = await fetch("https://cavscoutsim.azurewebsites.net/Img")
+const data = await response.json(
+console.log(data)
+)
+}
+
+
+
+
+
 
 
 
