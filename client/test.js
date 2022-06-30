@@ -13,9 +13,6 @@ start()
 //getting image for abrams from JSON
 
 
-const Abrms = JSON.parse(data);
-document.getElementById("imgAbrams").innerHTML = Abrms["abramsIMG"];
-
 
 
 
