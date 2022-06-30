@@ -4,10 +4,10 @@ console.log("Starting Cav Scout Simulator...");
 
 async function start() {
 const response = await fetch("https://cavscoutsim.azurewebsites.net/Img")
-const data = await response.json(
+const data = await response.json()
 console.log(data)
-)
 }
+start()
 
 
 
