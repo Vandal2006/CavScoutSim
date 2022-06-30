@@ -1,4 +1,3 @@
-console.log("Starting Cav Scout Simulator...");
 
 //Fetch JSON for img links
 
