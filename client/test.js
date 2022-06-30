@@ -6,10 +6,15 @@ async function start() {
 const response = await fetch("https://cavscoutsim.azurewebsites.net/Img")
 const data = await response.json()
 console.log(data)
+FetchImg(data)
 }
 start()
 
+//getting image for abrams from JSON
 
+
+const Abrms = JSON.parse(data);
+document.getElementById("imgAbrams").innerHTML = Abrms["abramsIMG"];
 
 
 
